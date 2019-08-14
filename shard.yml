@@ -1,0 +1,28 @@
+name: cvgen
+version: 0.1.0
+
+authors:
+  - Jade D. Kharats <jade.kharats@gmail.com>
+
+targets:
+  cvgen:
+    main: src/cvgen.cr
+
+crystal: 0.30.1
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.16.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.3.0
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.0
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.4.1
